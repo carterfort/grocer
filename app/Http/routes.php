@@ -11,11 +11,5 @@
 |
 */
 
-use Grocer\Models\Recipe;
-
-Route::get('/', function () {
-
-    $recipes = Recipe::with(['steps', 'ingredients', 'history'])->get();
-
-    return view('all-recipes', compact('recipes'));
-});
+Route::resource('recipes', 'RecipesController');
+Route::resource('weekly-lists', 'WeeklyListsController');
