@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Grocer
+        psr4_prefix: Grocer
+        src_path: app
