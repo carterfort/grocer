@@ -44,7 +44,14 @@ class RecipesController extends Controller
     public function store(CreateRecipe $request)
     {
         //
-        dd($request->all());
+        $recipe = Recipe::create($request->all());
+
+        if ($request->ajax())
+        {
+            return response()->json(['success' => true, 'recipe' => $recipe]);
+        }
+
+        return redirect()->route('recipes.index');
     }
 
     /**

@@ -6,7 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Recipe extends Model
 {
-    //
 
     protected $fillable = [
         'name',
@@ -14,9 +13,18 @@ class Recipe extends Model
         'photo_url'
     ];
 
+
+    public static function create(array $attributes = [])
+    {
+        $recipe = parent::create($attributes);
+        Ingredient::createForRecipeWithIngredientsString($recipe, $attributes['ingredients']);
+
+        return $recipe;
+    }
+
     public function ingredients()
     {
-        return $this->belongsToMany(Ingredient::class)->withPivot(['amount']);
+        return $this->belongsToMany(Ingredient::class)->withPivot(['amount', 'measurement']);
     }
 
     public function steps()

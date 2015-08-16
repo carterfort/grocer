@@ -2,6 +2,7 @@
 
 namespace Grocer\Models;
 
+use Grocer\Converters\IngredientListConverter;
 use Illuminate\Database\Eloquent\Model;
 
 class Ingredient extends Model
@@ -12,6 +13,23 @@ class Ingredient extends Model
         'name',
         'store_section'
     ];
+
+    public static function createForRecipeWithIngredientsString($recipe, $ingredients)
+    {
+
+        $converter = new IngredientListConverter($ingredients);
+        $items = $converter->convertedList();
+
+        foreach ($items as $item)
+        {
+            $ingredient = static::firstOrCreate(['name' => $item['name']]);
+
+            $recipe->ingredients()->attach($ingredient->id, [
+                    'amount' => $item['amount'],
+                    'measurement' => $item['measurement']
+                ]);
+        }
+    }
 
     public function recipes()
     {

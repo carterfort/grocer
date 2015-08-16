@@ -26,7 +26,7 @@ class CreateRecipe extends Request
         return [
             'name' => 'required',
             'ingredients' => 'required',
-            'url' => 'required|active_url'
+            'url' => 'required|url'
             //
         ];
     }

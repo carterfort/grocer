@@ -24,6 +24,7 @@ class CreateIngredientsTable extends Migration {
             $table->integer('ingredient_id')->unsigned()->nullable();
             $table->integer('recipe_id')->unsigned()->nullable();
             $table->string('amount');
+            $table->string('measurement');
         });
 	}
 

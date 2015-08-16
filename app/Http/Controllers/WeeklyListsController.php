@@ -2,10 +2,8 @@
 
 namespace Grocer\Http\Controllers;
 
-use Illuminate\Http\Request;
-
-use Grocer\Http\Requests;
 use Grocer\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 
 class WeeklyListsController extends Controller
 {
@@ -84,4 +82,5 @@ class WeeklyListsController extends Controller
     {
         //
     }
+
 }
