@@ -57,7 +57,7 @@ class IngredientListConverter {
 
 	private function separateItems($itemsText)
 	{
-		return preg_split("/\n|\r/", $itemsText);
+		return array_filter(preg_split("/\n|\r/", $itemsText));
 	}
 
 	private function convertItemStringToIngredientWithMeasurement($item)

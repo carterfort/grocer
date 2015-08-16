@@ -11,5 +11,7 @@
 |
 */
 
+Route::get('/', 'PlannerController@planner');
+
 Route::resource('recipes', 'RecipesController');
 Route::resource('weekly-lists', 'WeeklyListsController');
