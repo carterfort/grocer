@@ -2,7 +2,9 @@
 
 @section('body')
 
-    <h3>Recipes</h3>
+    <h3>Recipes
+        <a href="{{route('recipes.create')}}" class="btn btn-default  pull-right">+ Add new Recipe</a>
+    </h3>
 
     <div class="list-group">
     @foreach($recipes as $recipe)

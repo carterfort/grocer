@@ -17,4 +17,14 @@ class Ingredient extends Model
     {
         return $this->belongsToMany(Recipe::class);
     }
+
+    public function getSingleLineDescriptionAttribute()
+    {
+        $string = [];
+        $string[] = $this->pivot->amount;
+        $string[] = $this->pivot->measurement;
+        $string[] = $this->name;
+
+        return implode(' ', $string);
+    }
 }

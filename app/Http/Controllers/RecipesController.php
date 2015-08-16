@@ -2,6 +2,7 @@
 
 namespace Grocer\Http\Controllers;
 
+use Grocer\Http\Requests\CreateRecipe;
 use Grocer\Models\Recipe;
 use Illuminate\Http\Request;
 
@@ -37,13 +38,13 @@ class RecipesController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  Request  $request
+     * @param  CreateRecipe  $request
      * @return Response
      */
-    public function store(Request $request)
+    public function store(CreateRecipe $request)
     {
         //
-        dd($request);
+        dd($request->all());
     }
 
     /**

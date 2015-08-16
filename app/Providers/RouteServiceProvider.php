@@ -2,6 +2,7 @@
 
 namespace Grocer\Providers;
 
+use Grocer\Models\Recipe;
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
@@ -27,6 +28,7 @@ class RouteServiceProvider extends ServiceProvider
         //
 
         parent::boot($router);
+        $router->model('recipe', Recipe::class);
     }
 
     /**
