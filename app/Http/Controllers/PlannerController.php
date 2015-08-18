@@ -2,16 +2,18 @@
 
 namespace Grocer\Http\Controllers;
 
-use Illuminate\Http\Request;
-
-use Grocer\Http\Requests;
 use Grocer\Http\Controllers\Controller;
+use Grocer\Http\Requests;
+use Grocer\Models\WeeklyList;
+use Illuminate\Http\Request;
 
 class PlannerController extends Controller
 {
    
    public function planner()
    {
-        return view('planner');
+
+   		$thisWeek = WeeklyList::currentWeek();
+        return view('planner', compact('thisWeek'));
    }
 }
