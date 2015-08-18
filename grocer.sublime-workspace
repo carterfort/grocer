@@ -1,0 +1,652 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Invoi",
+				"InvoiceWasCreated	(routes.php)"
+			],
+			[
+				"mon",
+				"months"
+			],
+			[
+				"div",
+				"diversionData"
+			],
+			[
+				"divers",
+				"diversion_data"
+			],
+			[
+				"dataPoi",
+				"dataPointContainer"
+			],
+			[
+				"cost",
+				"costPerYard"
+			],
+			[
+				"cos",
+				"costPerYard"
+			],
+			[
+				"costP",
+				"costPerYard"
+			],
+			[
+				"download",
+				"downloadChartData"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"bs3-icon",
+				"bs3-icon:glyphicon	bs3-icon-glyphicon"
+			],
+			[
+				"bs3-but",
+				"bs3-button:info	bs3-button-info"
+			],
+			[
+				"dr",
+				"dryOnionSoup"
+			],
+			[
+				"measure",
+				"measurement"
+			],
+			[
+				"recip",
+				"recipeData"
+			],
+			[
+				"reci",
+				"recipeData"
+			],
+			[
+				"Data",
+				"DatabaseTransactions"
+			],
+			[
+				"_",
+				"__c	(Live Templates)"
+			],
+			[
+				"Cou",
+				"CouponPercentage〔class〕"
+			],
+			[
+				"get",
+				"getSubTotal〔function〕"
+			],
+			[
+				"ingre",
+				"ingredient"
+			],
+			[
+				"conv",
+				"convertItemStringToIngredientWithMeasurement〔function〕"
+			],
+			[
+				"create",
+				"createForRecipeWithIngredientString〔function〕"
+			],
+			[
+				"response",
+				"responseObject"
+			],
+			[
+				"amountT",
+				"amountToIncrease"
+			],
+			[
+				"sta",
+				"startingValue"
+			],
+			[
+				"method",
+				"methodToCall"
+			],
+			[
+				"wa",
+				"wavesAt"
+			],
+			[
+				"wave",
+				"waveTarget"
+			],
+			[
+				"new",
+				"newGuy"
+			],
+			[
+				"payment",
+				"payment_did_succeed_on"
+			],
+			[
+				"payme",
+				"payment_did_refund_on"
+			],
+			[
+				"paymen",
+				"payment_did_fail_on"
+			],
+			[
+				"payment_did",
+				"payment_did_fail_on"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"last_filter": "armakemode",
+		"selected_items":
+		[
+			[
+				"armakemode",
+				"Laravel Make: Model"
+			],
+			[
+				"artisan",
+				"Laravel Artisan: List"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packinstal",
+				"Package Control: Install Package"
+			],
+			[
+				"new ",
+				"File: New View into File"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"goto",
+				"PHPCompanion:Goto Definition Scope"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"unit",
+				"PHPUnit: Run"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"GitX: Open GitX"
+			],
+			[
+				"doc",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"sniff thi",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"find us",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"find use",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: pack",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 713.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/cfort/Development/grocer"
+	],
+	"file_history":
+	[
+		"/Users/cfort/Development/pusher/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php",
+		"/Users/cfort/Development/pusher/app/Events/Event.php",
+		"/Users/cfort/Development/pusher/composer.json",
+		"/Users/cfort/Development/grocer/gulpfile.js",
+		"/Users/cfort/Development/grocer/app/Http/Controllers/RecipesController.php",
+		"/Users/cfort/Development/sqc_beacon/resources/views/client-portal/reports/new-report.blade.php",
+		"/Users/cfort/Development/sqc_beacon/app/SQCentral/CustomerInvoice/Commands/GroupInvoicesByMonth.php",
+		"/Users/cfort/Development/sqc_beacon/app/SQCentral/CustomerInvoice/CalculateYardsInInvoice.php",
+		"/Users/cfort/Library/Application Support/Sublime Text 3/Installed Packages/Bootstrap 3 Snippets.sublime-package",
+		"/Users/cfort/Library/Application Support/Sublime Text 3/Packages/User/Package Control.cache/01524fae79697630d0454ba3fabd9414",
+		"/Users/cfort/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/cfort/Library/Application Support/Sublime Text 3/Packages/bz2/st3_osx_x64/_bz2.so",
+		"/Users/cfort/Development/grocer/database/migrations/2015_02_23_035414_create_ingredients_table.php",
+		"/Users/cfort/Development/grocer/database/migrations/2015_08_14_190825_WeeklyList.php",
+		"/Users/cfort/Development/grocer/tests/TestCase.php",
+		"/Users/cfort/Development/grocer/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php",
+		"/Users/cfort/Development/grocer/vendor/laravel/framework/src/Illuminate/Foundation/Testing/AssertionsTrait.php",
+		"/Users/cfort/Development/grocer/tests/ExampleTest.php",
+		"/Users/cfort/Development/oo-example/david/index.php",
+		"/Users/cfort/Applications/Sublime/Snippets/templates.sublime-snippet",
+		"/Users/cfort/Applications/Sublime/Snippets/Live Templates",
+		"/Users/cfort/Development/grocer/app/Models/Recipe.php",
+		"/Users/cfort/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/cfort/Development/grocer/resources/views/recipes/index.blade.php",
+		"/Users/cfort/Development/grocer/vendor/laravel/framework/src/Illuminate/Foundation/Bus/DispatchesCommands.php",
+		"/Users/cfort/Development/grocer/app/Http/Controllers/WeeklyListsController.php",
+		"/Users/cfort/Development/grocer/app/Http/Controllers/Controller.php",
+		"/Users/cfort/Development/grocer/vendor/laravel/framework/src/Illuminate/Foundation/Bus/DispatchesJobs.php",
+		"/Users/cfort/Development/grocer/vendor/laravel/framework/src/Illuminate/Foundation/Console/stubs/model.stub",
+		"/Users/cfort/Development/grocer/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/Users/cfort/Development/grocer/app/Jobs/EmailGroceryListsForWeek.php",
+		"/Users/cfort/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/cfort/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-mousemap",
+		"/Users/cfort/Desktop/interfaces.php",
+		"/Users/cfort/Desktop/jquery.html",
+		"/Users/cfort/.homestead/jquery.html",
+		"/Users/cfort/.homestead/Homestead.yaml",
+		"/Users/cfort/.homestead/aliases",
+		"/Users/cfort/Development/david/app/Http/routes.php",
+		"/Users/cfort/Development/david/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/Users/cfort/Development/david/app/Buyer.php",
+		"/Users/cfort/Development/david/app/Http/Controllers/Controller.php",
+		"/Users/cfort/Development/david/.env",
+		"/Users/cfort/Development/david/app/Contract.php",
+		"/Users/cfort/Development/david/app/PerformanceLocation.php",
+		"/Users/cfort/Development/david/resources/views/welcome.blade.php",
+		"/Users/cfort/Development/david/database/migrations/2015_07_24_223621_Contract.php",
+		"/Users/cfort/Development/david/database/migrations/2015_07_24_223611_Buyer.php",
+		"/Users/cfort/Development/david/database/migrations/2015_07_24_223604_PerformanceLocation.php",
+		"/Users/cfort/Development/sqc_v2/gulpfile.js"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"/Users/cfort/Development/sqc_beacon/app/Http/routes"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ShouldBroadcast",
+			"Detatching?",
+			"login",
+			"function auth(",
+			"IncidentStatusWasUpdated",
+			"Organizations",
+			"4,254.34",
+			"class",
+			"bs3-",
+			"*\n",
+			"newRecipe",
+			"Ingredient",
+			"Model",
+			"static function find",
+			"clientVisibleIncidentsForServices"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 208.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "grocer.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"broadcast",
+				"vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"invoice",
+				"database/migrations/2015_08_18_183407_Invoice.php"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"plannercont",
+				"app/Http/Controllers/PlannerController.php"
+			],
+			[
+				"planner",
+				"resources/views/planner.blade.php"
+			],
+			[
+				"recipes/create",
+				"resources/views/recipes/create.blade.php"
+			],
+			[
+				"recipe",
+				"app/Models/Recipe.php"
+			],
+			[
+				"rrecipescontr",
+				"app/Http/Controllers/RecipesController.php"
+			],
+			[
+				"auth/guard",
+				"vendor/laravel/framework/src/Illuminate/Auth/Guard.php"
+			],
+			[
+				"handleincien",
+				"app/SQCentral/Incident/Commands/HandleIncidentWithTreeCommand.php"
+			],
+			[
+				"incidentscontr",
+				"app/Http/Controllers/IncidentsController.php"
+			],
+			[
+				"public.php",
+				"app/Http/routes/api/public.php"
+			],
+			[
+				"incidentliste",
+				"app/SQCentral/Listeners/IncidentListener.php"
+			],
+			[
+				"routelistcom",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php"
+			],
+			[
+				"client-portal/invoices",
+				"resources/views/client-portal/invoices/dashboard.blade.php"
+			],
+			[
+				"public.ph",
+				"app/Http/routes/api/public.php"
+			],
+			[
+				"csvgene",
+				"resources/assets/js/csv-generator.js"
+			],
+			[
+				"calculata",
+				"app/SQCentral/RolloffPulls/Commands/CalculateAverageTonsPerPullForChart.php"
+			],
+			[
+				"reportsapi",
+				"app/Http/Controllers/ClientPortal/ReportsAPIController.php"
+			],
+			[
+				"diversion",
+				"resources/views/client-portal/reports/diversion.blade.php"
+			],
+			[
+				"invoices.",
+				"resources/views/client-portal/reports/invoices.blade.php"
+			],
+			[
+				"create.bl",
+				"resources/views/recipes/create.blade.php"
+			],
+			[
+				"rolloffs.bla",
+				"resources/views/client-portal/reports/rolloffs.blade.php"
+			],
+			[
+				"customerinvoicerepo",
+				"app/SQCentral/Repositories/CustomerInvoiceEloquentRepository.php"
+			],
+			[
+				"reportsapicon",
+				"app/Http/Controllers/ClientPortal/ReportsAPIController.php"
+			],
+			[
+				"stand",
+				"resources/views/layouts/standard.blade.php"
+			],
+			[
+				"routes",
+				"app/Providers/RouteServiceProvider.php"
+			],
+			[
+				"createre",
+				"tests/CreateRecipeTest.php"
+			],
+			[
+				"ingre",
+				"app/Models/Ingredient.php"
+			],
+			[
+				"ingredienl",
+				"app/Converters/IngredientListConverter.php"
+			],
+			[
+				"illuminate/http/request",
+				"vendor/laravel/framework/src/Illuminate/Http/Request.php"
+			],
+			[
+				"request.",
+				"app/Http/Requests/Request.php"
+			],
+			[
+				"model",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Console/stubs/model.stub"
+			],
+			[
+				"index.blad",
+				"resources/views/recipes/index.blade.php"
+			],
+			[
+				"emailg",
+				"app/Jobs/EmailGroceryListsForWeek.php"
+			],
+			[
+				"rolloffreq",
+				"app/Models/RolloffSwapPullRequest.php"
+			],
+			[
+				"new-request",
+				"resources/views/rolloff-pulls/requests/new-request.blade.php"
+			],
+			[
+				"roll/crea",
+				"resources/views/rolloff-pulls/requests/create.blade.php"
+			],
+			[
+				"addresservice",
+				"app/SQCentral/Services/AddressService.php"
+			],
+			[
+				"address.",
+				"app/Models/Address.php"
+			],
+			[
+				"invoice-html",
+				"resources/views/customer-invoices/invoice-html.blade.php"
+			],
+			[
+				"invoicehtml",
+				"app/SQCentral/CustomerInvoice/HTMLForInvoice.php"
+			],
+			[
+				"digimemeb",
+				"app/controllers/DigiMembersController.php"
+			],
+			[
+				"digimembers/sho",
+				"app/views/digiMembers/show.blade.php"
+			],
+			[
+				"digimem",
+				"app/models/DigiMember.php"
+			],
+			[
+				"payment",
+				"app/models/Payment.php"
+			],
+			[
+				"incidentrepos",
+				"app/SQCentral/Repositories/Interfaces/IncidentRepositoryInterface.php"
+			],
+			[
+				"dashboardcontr",
+				"app/Http/Controllers/ClientPortal/DashboardController.php"
+			],
+			[
+				"cli/inc",
+				"resources/views/client-portal/incidents/incident-summary.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Development/pusher/pusher.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
